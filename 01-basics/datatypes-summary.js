@@ -28,3 +28,19 @@ const bigNumber = 34567473737483n
 console.log(typeof bigNumber);
 
 
+// +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack(primitive), heap(non-primitive)
+
+let myYoutubename = "hiteshchoudhry"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename)
+console.log(anothername);
+
+let userOne = {
+    email : "user@google.com",
+    upi :"user@ybl"
+}
