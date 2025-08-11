@@ -35,10 +35,30 @@ const users = [
         email: "h@gmail.com"
     }
 ]
-users[1].email
-console.log(tinderUser);
+// users[1].email
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));//output value ka dataype hai array
-console.log(Object.values(tinderUser));
+// console.log(Object.keys(tinderUser));//output value ka dataype hai array
+// console.log(Object.values(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+// course.courseInstructor
+
+const {courseInstructor} = course
+console.log(courseInstructor);
+
+const {courseInstructor: instructor} = course
+console.log(instructor);
+
+
+{
+    "name": "hitesh"
+    
+}
