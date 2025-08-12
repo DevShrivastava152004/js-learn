@@ -59,6 +59,6 @@ console.log(instructor);
 
 
 {
-    "name": "hitesh"
+    
     
 }
